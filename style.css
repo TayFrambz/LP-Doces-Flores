@@ -25,12 +25,12 @@ img {
   /* colors */
   --hue: 159;
   /* HSL color mode */
-  --base-color: rgb(165, 85, 42);
-  --base-color-second: rgb(187, 139, 113);
+  --base-color: rgb(42, 54, 165);
+  --base-color-second: rgb(67, 74, 141);
   --base-color-alt: rgb(42, 131, 42);
-  --title-color: rgb(165, 85, 42);
+  --title-color: rgb(60, 99, 226);
   --text-color: black;
-  --text-color-light: rgb(247, 165, 217);
+  --text-color-light: rgb(71, 223, 243);
   --body-color: white;
 
   /* fonts */
@@ -125,7 +125,7 @@ body {
 }
 
 #header {
-  border-bottom: 1px solid rgb(165, 85, 42);
+  border-bottom: 1px solid rgb(71, 223, 243);
   margin-bottom: 2rem;
   display: flex;
 
@@ -425,12 +425,12 @@ nav.show div.icon-close {
   padding: 4rem 1rem;
 }
 
-.swiper-pagination-bullet {
+.swiper-slide-bullet {
   width: 0.75rem;
   height: 0.75rem;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-slide-bullet-active {
   background: var(--base-color);
 }
 
